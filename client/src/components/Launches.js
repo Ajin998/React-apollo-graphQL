@@ -1,5 +1,6 @@
 import { useQuery, gql } from "@apollo/client";
 import LaunchItem from "./LaunchItem";
+import MissionKey from "./MissionKey";
 import CircularProgress from "@material-ui/core/CircularProgress";
 const LAUNCHES_QUERY = gql`
   query LaunchesQuery {
@@ -16,13 +17,15 @@ function Launches() {
 
   if (loading) return <CircularProgress />;
   if (error) console.log(error);
-  return <>
-    {
-        data.launches.map(launch=>(
-            <LaunchItem key ={launch.flight_number} launch={launch}/>
-        ))
-    }
-  </>
+  return (
+    <>
+      <h1 className="display-4 my-3">Launches</h1>
+      <MissionKey />
+      {data.launches.map((launch) => (
+        <LaunchItem key={launch.flight_number} launch={launch} />
+      ))}
+    </>
+  );
 }
 
 export default Launches;
