@@ -7,8 +7,8 @@ function LaunchItem({
     <div className="card card-body mb-3">
       <div className="row">
         <div className="col-md-9">
-          <h4>Mission:{mission_name}</h4>
-          <h5>Date:{launch_date_local}</h5>
+          <h5>Mission:{mission_name}</h5>
+          <p>Date:{launch_date_local}</p>
         </div>
         <div className="col-md-3">
           <button className="btn btn-secondary">Launch Details</button>
