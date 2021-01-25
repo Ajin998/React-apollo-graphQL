@@ -24,6 +24,7 @@ function Launches() {
       {data.launches.map((launch) => (
         <LaunchItem key={launch.flight_number} launch={launch} />
       ))}
+      <button className="btn btn-primary">Read More</button>
     </>
   );
 }

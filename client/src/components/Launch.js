@@ -52,7 +52,7 @@ function Launch(props) {
           Launched at: <Moment format="DD/MM/YYYY">{launch_date_local}</Moment>
         </li>
         <li className="list-group-item">
-          Launched Success:{" "}
+          Launch Succeed:{" "}
           <span
             className={classnames({
               "text-success": launch_success,
@@ -70,7 +70,7 @@ function Launch(props) {
         <li className="list-group-item">Rocket Name: {rocket_name}</li>
         <li className="list-group-item">Rocket Type: {rocket_type}</li>
       </ul>
-      <Link to ="/" className="btn btn-secondary mt-3">Back</Link>
+      <Link to ="/" className="btn btn-primary mt-3">Back</Link>
     </div>
   );
 }
