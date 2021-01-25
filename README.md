@@ -6,16 +6,37 @@ This application will demonstatre how to fetch data from external website throug
 
 ## Instruction:-
 
-1. Clone the repository in your local respository
-2. Install all the node dependencies by typing npm install
-3. To start the application simply start by typing npm start
-4. Now our server and application is running in localhost:5000
-5. Head to localhost:5000
+1. Clone the repository in your local respository by typing:-
+
+```
+$ git clone https://github.com/Ajin998/React-apollo-graphQL.git
+```
+
+2. Install all the node dependencies by typing:-
+
+```
+npm install
+```
+
+3. To start the application simply start by typing:-
+
+```
+npm start
+```
+
+4. Now our server and application both are running in localhost:5000
+5. Head to http://localhost:5000
 6. Application successfully started in localhost:5000
+7. You will notice that our server and application both are running in same port i.e 5000
+8. There is an npm package called concurrently which will help us to run both backend and the frontend application in the same port without explicitly opening a different ports for the same.
 
 ## Live Demo:-
 
 https://react-apollo-spacex.herokuapp.com/
+
+## Author 
+
+Ajin Varghese
 
 ## Improvement/Functionalities for the future version:-
 
