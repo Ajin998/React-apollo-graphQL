@@ -2,7 +2,7 @@
 
 ## Summary
 
-This application will demonstatre how to fetch data from external website through api with the help of graphql express server and graphql apollo client for the react, It also demonstartes the basic fundamentals of GraphQL
+This application will demonstatre how to fetch data from external website through api with the help of graphql express server and graphql apollo client for the react, It also demonstrates the basic fundamentals of GraphQL
 
 ## Instruction:-
 
