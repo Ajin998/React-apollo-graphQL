@@ -49,7 +49,7 @@ function Launch(props) {
         </li>
         <li className="list-group-item">Launced Year: {launch_year}</li>
         <li className="list-group-item">
-          Launched at: <Moment format="DD/MM/YYYY">{launch_date_local}</Moment>
+          Launched on: <Moment format="DD/MM/YYYY">{launch_date_local}</Moment>
         </li>
         <li className="list-group-item">
           Launch Succeed:{" "}
